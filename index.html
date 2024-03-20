@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio-player</title>
+    <link rel="icon" href="assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <main class="main">
+            <div class="player">
+                <div class="player-img-wrapper">
+                    <img src="assets/img/lemonade.png" alt="Beyonce" class="player-img">
+                </div>
+                <audio src="assets/audio/beyonce.mp3" id="song"></audio>
+                <div class="player-bottom">
+                    <p class="artist">Beyonce</p>
+                    <p class="song">Don't Hurt Yourself</p>
+                    <img src="assets/icons/play.png" class="play-pause" />
+                    <img src="assets/icons/forward.png" class="next-song" />
+                    <img src="assets/icons/backward.png" class="previous-song" />
+                    <input type="range" class="detector" min="0" max="" value="0" />
+                    <div class="current-time"></div>
+                    <div class="song-time"></div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <p>2023</p>
+            <a href="https://rs.school/js-stage0/" target="_blank">
+                <img src="assets/icons/rsschool-js.svg" alt="rsschool-js" width="85" height="33">
+            </a>
+            <a href="https://github.com/Viktoryia-Kasabutskaya" class="nav-link" target="_blank">Viktoryia</a>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
